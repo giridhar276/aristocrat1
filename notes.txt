@@ -1,0 +1,355 @@
+
+
+
+objects
+-------
+- Everything in python is object
+- Every object contains set of methods
+
+
+number
+---------
+number can be integer or decimal or octal or hexa
+
+val = 10
+aval = 45.4
+
+
+string
+-------
+string can be defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "scala programming"
+cname = """r programming"""
+dname = "python"
+
+
+
+list
+-----
+list contains set of elements.
+Elements can be group of numbers or strings or any combination.
+
+alist = [10,20,30,40]
+blist = [67.5,8.4]
+clist = [10,56.5,"python",567.4]
+
+
+tuple  ( READ ONLY )
+-----
+tuple contains set of elements.
+Elements can be group of numbers or strings or any combination.
+tuple elements are defined in ().
+*** Elements inside tuple CANNOT be modified DIRECTLY***
+
+atup = (10,20,30)
+btup = (56.3,89.8)
+ctup = ("unix",10,56.4)
+
+
+
+dictionary
+--------------
+dictionary contains elements in key:value pairs
+dictionary elements are defined in {}.
+In dictionary.... keys are always UNIQUE
+                  key will be either number or string to uniquely identify
+                  values can be integer or string or list or tuple or dictionary or dictionary of dictionaries or
+                                                                                     any other complex datastructure
+syntax:     object = {key:value , key:value , key:value....}
+example:      book = {"chap1":10 ,"chap2":20 ,"chap3":30 ,4:6 }
+              values={1:2,3:4,5:6}
+              book = {"chap1":["Ram",25,"UK"] ,"chap2":("Eric",20,"AUS"),"chap3":["Rita",18,"UK"] }
+               
+
+set
+----
+set  is unordered collection of UNIQUE elements of same type.
+
+aset = {10,20,30,10,20,30,30,30}
+
+
+
+classification of objects
+----------------------------
+
+
+mutable objects
+------------------
+list
+dictionary
+set
+
+
+immutable objects ( unchangable )
+------------------
+string
+tuple
+number
+
+
+
+functions and methods
+----------------------
+
+
+methods:  
+-------
+-Every method is object specific.
+-Every object has its own methods.
+-Eg:  object.method()
+
+
+
+
+functions:
+--------------
+- functions are common for all the objects.
+
+
+bulitin functions
+-------------------
+print()
+input() :  capture input from keyboard
+range()
+len()
+isinstance()
+type()
+id()
+help()
+dir()
+sum()
+max()
+min()
+zip()
+map()
+filter()
+
+
+
+typecasting functions
+---------------------
+str()
+int()
+list()
+float()
+oct()
+hex()
+tuple()
+dict()
+set()
+
+
+
+
+operators 
+----------
+
+
+arithmetic operators :  + - * % /
+
+
+relational operators :  < <= > >=  ==  !=
+
+assignment operator ( ++ and -- are not allowed in python )
+--------------------
+val=10
+
+val+=10  (or) val = val + 10
+val-=10  (or) val = val -10
+
+logical operators
+-----------------
+and       if a>10 and 1<100
+          if len(name) == 10   and name.isupper():
+ 
+or        if color == "red"  or color == "black":
+              #logic
+
+not       if not name.isupper():
+              #logic
+
+
+special operators
+-----------------
+in                
+is      if  name is None
+as
+
+
+
+
+
+
+file handling
+--------------
+
+- working with flat files (  csv log conf txt  .... )
+- working with third party files ( xlsx docx pdf mp4 pptx .... )
+
+flat files
+------------
+r : read
+w : write
+a : append
+
+opening the file
+-----------------
+
+syntax:      objectname = open(filename,mode)
+example:          fobj  = open("customers.txt","r")
+                  fobj  = open("languages.txt","w")
+                  case1: If the file doesn't exist.. file will be created first
+                  case2: If the file exists......... it overwrites the content
+
+                  fobj  = open("info.txt","a")
+                  case1: If the file doesn't exist.. file will be created first
+                  case2: If the file already exists......... it appends the content
+
+
+
+
+
+closing the file
+-----------------
+fobj.close()
+
+
+
+
+read operation
+----------------
+
+
+
+- reading the file line by line   ( used for processing ) 
+- reading using fobj.readlines()
+- reading using fobj.read()
+- reading using csv library       ( used for processing ) 
+- reading using pandas library    ( used in data analytics )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
