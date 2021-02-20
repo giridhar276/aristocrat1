@@ -111,7 +111,7 @@ functions:
 bulitin functions
 -------------------
 print()
-input() :  capture input from keyboard
+input() :  capture input from keyboard         In python2.x     raw_input()
 range()
 len()
 isinstance()
@@ -224,10 +224,225 @@ read operation
 
 
 - reading the file line by line   ( used for processing ) 
-- reading using fobj.readlines()
-- reading using fobj.read()
+- reading using fobj.readlines()  ( output will be in list )
+- reading using fobj.read()       ( output will be in string format)
 - reading using csv library       ( used for processing ) 
 - reading using pandas library    ( used in data analytics )
+
+
+
+exception handling
+-------------------------
+
+- syntax error
+- semantic error or runtime error or logical errors
+
+
+handling the exceptions in the runtime is known as exception handling.
+
+try
+except
+else    ( optional)
+finally ( optional )
+raise   ( to raise the exceptions wantedly)
+
+
+
+
+
+
+
+
+library|package|module
+---------------------
+
+builtin library
+--------------
+builtin libraries will be installed with the python which are generally used.
+
+IDLE    :4000 libraries
+
+anaconda:9000+ libraries which are mainly used for ML/data analytics
+
+Python has inbuilt database sqlite3 database  ( library sqlite3
+
+third party library
+--------------------
+Depending on the requirement( Database(oracle,sybase,mongodb,mysql,) , networking , cloud(AWS azure gcp oci alibaba) , ML , DA , Image processing)
+developer has to install the third party library from www.pypi.org OR pip tool OR easy_install tool
+
+
+builtin libraries
+-----------------------
+
+os            : os.listdir() os.remove() 
+sys           : system config information
+urllib.request: working with http
+math          : mathematical operations
+random        : random numbers
+calendar
+smtplib       : sending mails
+ftplib        : ftp'ng the file
+telnetlib     :
+logging       : logging all the events
+shutil        : copy,move,rmtree ....
+filecmp       : comparing directories
+zipfile       : create/extract the zip files
+rarfile       : create/extract the tar files
+tarfile       : create/extract the tarfiles
+getpass       : shadowing the password
+json          : reading/writing json files
+csv           : reading/writing csv files
+xml        
+sysconfig     : system configuration
+collections   : working with dictionaries
+argparse      : passing args from command line
+optparse      : passing args from command line
+time          : working with date and time
+datetime      : working with date and time
+cryptography  : encrypting and decrypting the passwords
+heapq         : performing array operations
+gzip          : reading gunzip files
+re            : validating the strings
+ipadresss     : validting ip address
+platform      : display platform information
+pathlib       : creating temp files
+threading     : for performing multi threading
+multiprocessing:
+subprocess    : invoking the system commands ( linux or dos commands)
+
+
+
+frequently used third party libraries
+---------------------------------------
+database related
+----------------
+pymysql   :
+cx_Oracle
+pymongo
+pymssql
+
+
+web frameworks ( developing web applications)
+--------------
+django
+flask
+bottom
+
+analytics/machine learning
+---------------------------
+numpy
+scipy
+pandas
+seaborn
+plotly
+ggplot
+matplotlib   : visualizing data .. bar graph.. pie graph
+scikit-learn :  machine learning algorithms
+
+image processing
+---------------
+pillow
+opencv
+
+APIs ( REST API) ( web services ) 
+-----
+requests
+
+excel programming
+------------------
+openpyxl    : reading/write excel files
+xlsxwriter  : writing to excel file
+pyexcel
+xlrd
+python-docx : working with ms-word
+
+networking
+-----------
+paramiko   :  interacting with remote servers
+netmiko    :  connecting to router/switch
+pyping     :  ping any host or ip address
+
+
+
+web scrapping
+--------------
+beautifulsoup
+scrapy
+
+
+
+
+
+
+
+
+steps
+------------
+
+displaying all the existing databases
+---------------------------------------------
+show databases ;
+
+creating database
+-----------------
+create database aristocrat;
+
+
+access your database
+------------------
+use aristocrat;
+
+displaying all tables
+------------------
+show tables ;   ( empty)
+
+creating table
+-------------
+create table realestate( street varchar(100) , city varchar(100) );
+
+desc realestate;
+
+inserting records
+=================
+insert into realestate values('101 MG Road','Delhi');
+insert into realestate values('GT Road','Hyderabad');
+
+
+select * from realestate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
